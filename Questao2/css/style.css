@@ -17,6 +17,18 @@ body{
     font-family: 'Crimson Pro', sans-serif;
 }
 
+.btnvoltar{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btnvoltar:hover{
+    filter: brightness(0.4);
+}
+
 .container{
     display: flex;
     justify-content: center;
