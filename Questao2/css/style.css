@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    max-width: 900px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body{
+    background-color: #D9CDF7;
+    align-items: center;
+    font-family: 'Crimson Pro', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.texto h1{
+    color: #271A45;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.texto p{
+    color: #271A45;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.texto a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px #271A45 solid;
+}
+
+.texto a:hover{
+    color: #444444;
+    border: 1px #444444 solid;
+}
+
+.image{
+    position: relative;
+}
+
+.image button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.image button:hover{
+    cursor: pointer;
+    filter: brightness(0.1);
+}
+
+.sofa-estatico{
+    width: 600px;
+    height: auto;
+}
